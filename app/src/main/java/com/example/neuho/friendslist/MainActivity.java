@@ -15,6 +15,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
+    //JAVA is better than SCALA
+
     private List<Friends> listFriends;
     private ListView myListView;
     private CostumAdapter myAdapter;

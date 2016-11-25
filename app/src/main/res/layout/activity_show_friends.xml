@@ -48,14 +48,6 @@
             android:textSize="24sp" />
 
         <TextView
-            android:text="TextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textViewAddress"
-            android:layout_marginTop="30dp"
-            android:textSize="24sp" />
-
-        <TextView
             android:text="Tel.:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,6 +83,14 @@
                 android:layout_weight="1"
                 android:onClick="call" />
         </LinearLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewAddress"
+            android:layout_marginTop="30dp"
+            android:textSize="24sp" />
 
     </LinearLayout>
 </RelativeLayout>
