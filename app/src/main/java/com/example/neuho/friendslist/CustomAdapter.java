@@ -11,11 +11,7 @@ import java.util.List;
 
 import com.example.neuho.friendslist.model.Friends;
 
-/**
- * Created by laszlobalo on 19.11.16.
- */
-
-public class CostumAdapter extends BaseAdapter {
+class CostumAdapter extends BaseAdapter {
 
     List<Friends> listFriends;
     Context context;
@@ -52,10 +48,10 @@ public class CostumAdapter extends BaseAdapter {
         TextView viewAddress=(TextView)view.findViewById(R.id.textViewListAddress);
         TextView viewChefName=(TextView)view.findViewById(R.id.textViewListPhone);
 
-        Friends f = listFriends.get(i);
-        viewOrderId.setText("Order ID: "+gulasch.getFavouriteActor());
-        viewAddress.setText(gulasch.getAddress());
-        viewChefName.setText(gulasch.getWriter());
+        Friends friends = listFriends.get(i);
+        viewOrderId.setText("Actor: "+friends.getFavouriteActor());
+        viewAddress.setText(friends.getAddress());
+        viewChefName.setText(friends.getWriter());
 
         return view;
     }

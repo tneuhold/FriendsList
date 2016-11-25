@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="at.fh.swengb.testlist.ShowUserActivity">
+    tools:context="com.example.neuho.friendslist.FriendsShowActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +19,7 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="User Details"
+            android:text="Actor Details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView"
@@ -31,6 +31,13 @@
             android:layout_height="wrap_content"
             android:id="@+id/textViewFirstName"
             android:textSize="24sp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:text="Writer:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
             android:layout_marginTop="30dp" />
 
         <TextView
@@ -47,6 +54,13 @@
             android:id="@+id/textViewAddress"
             android:layout_marginTop="30dp"
             android:textSize="24sp" />
+
+        <TextView
+            android:text="Tel.:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_marginTop="30dp" />
 
         <TextView
             android:text="TextView"
